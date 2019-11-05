@@ -33,7 +33,7 @@ public class Cliente {
     }
     
     public void imprimir(){
-        JOptionPane.showMessageDialog(null, this.nome + "\n" + this.cpf + "\n" + this.telefone);
+        JOptionPane.showMessageDialog(null, "Nome: "+ this.nome + "\n CPF: " + this.cpf + "\n Telefone: " + this.telefone);
     }
     
 }
