@@ -60,7 +60,7 @@ public class Conta {
         if (debito = true){
             JOptionPane.showMessageDialog(null, "Débito confirmado");
         }else{
-            JOptionPane.showMessageDialog(null, "Débito negado, Saldo inválido");
+            JOptionPane.showMessageDialog(null, "Débito negado, Saldo indisponível");
         }
         return debito;
     }
