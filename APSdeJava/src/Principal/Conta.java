@@ -3,7 +3,7 @@ package Principal;
 import javax.swing.JOptionPane;
 public class Conta {
     
-    private int numero;
+    private static int numero;
     
     //String só para testes
     private String cliente;
@@ -69,6 +69,7 @@ public class Conta {
     public boolean transferir(int numero, Double quantia){
         boolean transferido = false;
         
+                
         return transferido;
     }
     
